@@ -196,23 +196,23 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+        "Huyo jamaa ni mnomaa!!.",
+      name: "Asap Royco",
       designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      company: "Madre Co",
+      image: "https://compote.slate.com/images/2503cf5f-09a1-4ec1-a0fa-5d941010544c.jpeg?crop=6000%2C4000%2Cx0%2Cy0&width=840",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
+        "I've never met a web developer who truly cares about their clients' success like Brimin does.",
+      name: "Elon vans",
       designation: "COO",
       company: "DEF Corp",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Brimin optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -224,7 +224,7 @@ import {
     {
       name: "Nasa APOD",
       description:
-        "Web-based platform that allows users to search nasa pictures of the day",
+        "Web-based platform that that fetches data from NASA API and allows users to search nasa pictures of the day.",
       tags: [
         {
           name: "javascript",
@@ -266,7 +266,7 @@ import {
     {
       name: "Trip Guide",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and recommendations for popular destinations.",
       tags: [
         {
           name: "nextjs",
