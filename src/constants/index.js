@@ -54,8 +54,8 @@ import {
       icon: backend,
     },
     {
-      //title: "Content Creator",
-      //icon: creator,
+      title: "Designer",
+      icon: creator,
     },
   ];
   
@@ -118,7 +118,7 @@ import {
       {
         title: "Junior Developer",
         company_name: "Personal Projects",
-        icon: tesla,
+       icon: tesla,
         iconBg: "#383E56",
         date: "February 2024 - Present",
         points: [

@@ -9,15 +9,15 @@ import { technologies } from "../constants";
 const Tech = () => {
   return (
     <>
-    <div className='flex flex-row flex-wrap justify-center gap-10'>
+    <div className='flex flex-row flex-wrap '>
       
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
+        <p className={`${styles.sectionSubText} `}>tech</p>
         <h2 className={`${styles.sectionHeadText}`}>Technologies.</h2>
       </motion.div>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-5'>
       {technologies.map((technology) => (
-        <div className='w-28 h-28' key={technology.name}>
+        <div className='w-25 h-25' key={technology.name}>
           <BallCanvas icon={technology.icon} />
         </div>
        
