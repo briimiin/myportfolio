@@ -29,8 +29,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import back from './back.jpg';
+import love from './love.jpg';
+import lovew from './lovew.jpg';
 
 export {
+  lovew,
   logo,
   backend,
   creator,
@@ -59,4 +63,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  back,
+  love
 };

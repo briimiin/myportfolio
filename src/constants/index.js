@@ -15,6 +15,7 @@ import {
     git,
     figma,
     docker,
+    back,
     meta,
     starbucks,
     tesla,
@@ -23,6 +24,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    lovew,
+    love
   } from "../assets";
   
   export const navLinks = [
@@ -219,30 +222,30 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Nasa APOD",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search nasa pictures of the day",
       tags: [
         {
-          name: "react",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "html",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: back,
+      source_code_link: "https://github.com/briimiin/Phase-1-Independent-project",
     },
     {
-      name: "Job IT",
+      name: "FindingMapenzi",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to find love with food. The lovers get to choose and rate their favourite food",
       tags: [
         {
           name: "react",
@@ -253,12 +256,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: lovew,
+      source_code_link: "https://github.com/two23three/findingMapenzi",
     },
     {
       name: "Trip Guide",
