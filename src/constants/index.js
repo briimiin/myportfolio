@@ -198,8 +198,8 @@ import {
       testimonial:
         "Huyo jamaa ni mnomaa!!.",
       name: "Asap Royco",
-      designation: "CFO",
-      company: "Madre Co",
+      designation: "CEO",
+      company: " Fenty Madre Co",
       image: "https://compote.slate.com/images/2503cf5f-09a1-4ec1-a0fa-5d941010544c.jpeg?crop=6000%2C4000%2Cx0%2Cy0&width=840",
     },
     {

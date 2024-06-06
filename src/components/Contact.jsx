@@ -1,11 +1,15 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+
 //TrIXBHK8eAo46LMq8
 //template_zj37msh
 //service_6l7nnri
@@ -120,6 +124,21 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+          <div className='mt-4'>
+            <p className='text-white font-medium'>Contacts</p>
+          </div>
+          <div className=' flex  gap-7'>
+            <a href="https://twitter.com/skillobk" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faTwitter} size="2x" className='text-white hover:text-blue-500' />
+            </a>
+            <a href="mailto:kipkorirbrimin005@gmail.com" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faEnvelope} size="2x" className='text-white hover:text-red-500' />
+            </a>
+            <a href="https://instagram.com/briimiin" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faInstagram} size="2x" className='text-white hover:text-pink-500' />
+            </a>
+          </div>
+
         </form>
       </motion.div>
 
