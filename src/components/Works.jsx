@@ -66,6 +66,7 @@ const ProjectCard = ({
     </motion.div>
   );
 };
+//works
 
 const Works = () => {
   return (
@@ -96,5 +97,5 @@ const Works = () => {
     </>
   );
 };
-
+//export
 export default SectionWrapper(Works, "");
