@@ -5,6 +5,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/myportfolio/', // Make sure this matches your repository name
   build: {
+    outDir: 'dist',
     rollupOptions: {
       output: {
         manualChunks(id) {
