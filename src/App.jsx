@@ -1,9 +1,10 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter } from 'react-router-dom';
-
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
 // Lazy load components
-const Navbar = lazy(() => import('./components/Navbar'));
-const Hero = lazy(() => import('./components/Hero'));
+//const Navbar = lazy(() => import('./components/Navbar'));
+//const Hero = lazy(() => import('./components/Hero'));
 const About = lazy(() => import('./components/About'));
 const Experience = lazy(() => import('./components/Experience'));
 const Tech = lazy(() => import('./components/Tech'));
@@ -17,10 +18,8 @@ const App = () => {
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-          <Suspense fallback={<div>Loading...</div>}>
             <Navbar />
             <Hero />
-          </Suspense>
         </div>
         <Suspense fallback={<div>Loading...</div>}>
           <About />
