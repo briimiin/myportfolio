@@ -17,12 +17,12 @@ const App = () => {
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense>
             <Navbar />
             <Hero />
           </Suspense>
         </div>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense>
           <About />
           <Experience />
           <Tech />
@@ -30,7 +30,7 @@ const App = () => {
           <Feedbacks />
         </Suspense>
         <div className='relative z-0'>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense>
             <Contact />
             <StarsCanvas />
           </Suspense>
